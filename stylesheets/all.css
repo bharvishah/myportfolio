@@ -269,62 +269,86 @@ input[type="submit"] {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 4, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/all.scss */
-.intro-text {
-  margin-bottom: 5em;
-  margin-top: 4em;
-  text-align: center; }
-  /* line 11, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/all.scss */
-  .intro-text h2 {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-    font-weight: 800;
-    margin-bottom: .3em; }
-    @media screen and (min-width: 53.75em) {
-      /* line 11, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/all.scss */
-      .intro-text h2 {
-        font-size: 3em;
-        margin-bottom: .4em; } }
-  /* line 22, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/all.scss */
-  .intro-text h3 {
+/* line 4, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/all.css.scss */
+.bullets {
+  overflow: auto;
+  margin-bottom: 1.5; }
+  @media screen and (min-width: 53.75em) {
+    /* line 11, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/all.css.scss */
+    .bullets .two-col-bullet {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      /* line 38, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/neat/grid/_span-columns.scss */
+      .bullets .two-col-bullet:last-child {
+        margin-right: 0; }
+      /* line 52, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/neat/grid/_omega.scss */
+      .bullets .two-col-bullet:nth-child(2n) {
+        margin-right: 0; }
+      /* line 57, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/neat/grid/_omega.scss */
+      .bullets .two-col-bullet:nth-child(2n+1) {
+        clear: left; } }
+  @media screen and (min-width: 53.75em) {
+    /* line 18, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/all.css.scss */
+    .bullets .three-col-bullet {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      /* line 38, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/neat/grid/_span-columns.scss */
+      .bullets .three-col-bullet:last-child {
+        margin-right: 0; }
+      /* line 52, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/neat/grid/_omega.scss */
+      .bullets .three-col-bullet:nth-child(3n) {
+        margin-right: 0; }
+      /* line 57, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/neat/grid/_omega.scss */
+      .bullets .three-col-bullet:nth-child(3n+1) {
+        clear: left; } }
+  @media screen and (min-width: 53.75em) {
+    /* line 26, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/all.css.scss */
+    .bullets .four-col-bullet {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      /* line 38, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/neat/grid/_span-columns.scss */
+      .bullets .four-col-bullet:last-child {
+        margin-right: 0; }
+      /* line 52, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/neat/grid/_omega.scss */
+      .bullets .four-col-bullet:nth-child(4n) {
+        margin-right: 0; }
+      /* line 57, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/neat/grid/_omega.scss */
+      .bullets .four-col-bullet:nth-child(4n+1) {
+        clear: left; } }
+  /* line 33, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/all.css.scss */
+  .bullets .bullet-icon {
+    float: left;
     background: #477DCA;
-    color: white;
-    display: inline-block;
-    font-size: .7em;
-    font-weight: 800;
-    margin-bottom: 2em;
-    padding: 3px 8px;
-    text-transform: uppercase; }
-    @media screen and (min-width: 53.75em) {
-      /* line 22, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/all.scss */
-      .intro-text h3 {
-        margin-bottom: 3.3em; } }
-  /* line 37, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/all.scss */
-  .intro-text h4 {
-    color: #666666;
-    font-size: 1.3em;
-    font-weight: 300;
-    line-height: 1.4em;
-    margin: 0 auto 1em; }
-    @media screen and (min-width: 53.75em) {
-      /* line 37, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/all.scss */
-      .intro-text h4 {
-        font-size: 1.7em;
-        line-height: 1.35em;
-        margin: 0 auto 1em;
-        width: 60%; } }
-  /* line 52, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/all.scss */
-  .intro-text p {
-    margin: auto; }
-    @media screen and (min-width: 53.75em) {
-      /* line 52, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/all.scss */
-      .intro-text p {
-        width: 60%; } }
-    /* line 59, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/all.scss */
-    .intro-text p a {
-      font-size: .8em;
-      font-weight: 400;
-      text-transform: uppercase; }
-      /* line 64, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/all.scss */
-      .intro-text p a span {
-        font-size: 1.3em;
-        line-height: 0; }
+    padding: 0.875em;
+    border-radius: 50%;
+    width: 3.5em;
+    height: 3.5em; }
+  /* line 42, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/all.css.scss */
+  .bullets .bullet-icon-1 {
+    background: #477DCA; }
+  /* line 46, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/all.css.scss */
+  .bullets .bullet-icon-2 {
+    background: #47caaa; }
+  /* line 50, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/all.css.scss */
+  .bullets .bullet-icon-3 {
+    background: #a9ca47; }
+  /* line 54, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/all.css.scss */
+  .bullets .bullet-content {
+    margin-left: 4.9em;
+    margin-bottom: 2em; }
+  /* line 59, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/all.css.scss */
+  .bullets h2 {
+    font-size: 1.4em;
+    padding-top: 0.5em;
+    margin-bottom: 0.58333em;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+    display: inline-block; }
+  /* line 66, /Users/jaydeepshah/ruby/day11/myportfolio/source/stylesheets/all.css.scss */
+  .bullets body {
+    background-color: blue; }
